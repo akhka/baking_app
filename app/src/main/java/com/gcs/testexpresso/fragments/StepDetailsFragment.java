@@ -13,5 +13,8 @@ public class StepDetailsFragment extends Fragment implements View.OnClickListene
 
     @BindView(R.id.textView_description)
     private TextView description;
+    @BindView(R.id.currentStep)
+    private TextView currentStep;
+
 
 }
